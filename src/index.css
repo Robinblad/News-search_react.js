@@ -1,0 +1,120 @@
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --hover-color-AL: #c65151;
+  --hover-color-AD: #9d51c6;
+  --hover-color-AM: #b65bb6;
+  --hover-color-AT: #8b6666;
+  --hover-color-BE: #ad5748;
+  --hover-color-BG: #508661;
+  --hover-color-BA: #957a9c;
+  --hover-color-BY: #9f0f0f;
+  --hover-color-CH: #e65555;
+  --hover-color-CZ: #519bc6;
+  --hover-color-DE: #827668;
+  --hover-color-DK: #497675;
+  --hover-color-EE: #257ca5;
+  --hover-color-FI: #71a2cd;
+  --hover-color-GB: #4f778d;
+  --hover-color-GE: #876b6b;
+  --hover-color-GR: #666e39;
+  --hover-color-HR: #956281;
+  --hover-color-HU: #5a8168;
+  --hover-color-IE: #4f508b;
+  --hover-color-IS: #79828f;
+  --hover-color-IT: #7d8d42;
+  --hover-color-LI: #dde098;
+  --hover-color-LT: #5d7a14;
+  --hover-color-LU: #bc0000;
+  --hover-color-LV: #763939;
+  --hover-color-MD: #af7aa4;
+  --hover-color-MK: #ea9b73;
+  --hover-color-ME: #654b4b;
+  --hover-color-NO: #786d93;
+  --hover-color-PL: #c65935;
+  --hover-color-PT: #ac7927;
+  --hover-color-RO: #a29520;
+  --hover-color-RS: #5436a0;
+  --hover-color-SK: #7387cc;
+  --hover-color-SI: #4b8ca8;
+  --hover-color-SE: #d1d423;
+  --hover-color-TR: #db4c58;
+  --hover-color-UA: #dce46e;
+  --hover-color-XK: #3a9d89;
+  --hover-color-NL: #e07f0f;
+  --hover-color-ES: #beaf08;
+  --hover-color-FR: #3a997d;
+  --hover-color-CY: #a4dce7;
+}
+
+
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

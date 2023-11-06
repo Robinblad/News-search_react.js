@@ -1,0 +1,224 @@
+.cards {
+  /*background-color: antiquewhite;*/
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:flex-start;
+  gap: 2vw;
+  background-color: transparent;
+  align-content: stretch
+}
+
+.card {
+  margin: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(238, 238, 238, 0.9), rgba(171, 171, 171, 0.5));
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 40vw;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.webPublicationDate {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.webTitle {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0.5em;
+  font-family: Georgia serif, 'Times New Roman', Times, serif, Arial, sans-serif;
+  color: #0077B6;
+  text-align: start;
+  padding-top: 0.5em;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 15vw;
+  height: 4vh;
+  margin-top: -10px;
+}
+
+.webUrl-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 25px;
+}
+
+.webUrl {
+  border: #000000 1px solid;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #0077B6;
+    color: white;
+    border: #0077B6 1px solid;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.sectionName {
+  display: block;
+  text-transform: uppercase ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.line {
+  margin-top: 30px;
+  border-bottom: 1px solid black; /* Set the color, thickness, and style of the line */
+}
+
+.webUrlStyleOpinion:hover {
+  background-color: #c69751;
+  border: #c69751 1px solid;
+}
+
+.webUrlStyleFashion:hover {
+  background-color: #c651b0;
+  border: #c651b0 1px solid;
+}
+
+.webUrlStylePolitics:hover {
+  background-color: #769d6a;
+  border: #769d6a 1px solid;
+}
+
+.webUrlStyleTechnology:hover {
+  background-color: #c65151;
+  border: #c65151 1px solid;
+}
+
+.webUrlStyleScience:hover {
+  background-color: #5164c6;
+  border: #5164c6 1px solid;
+}
+
+.webUrlStyleUknews:hover {
+  background-color: #51c6a9;
+  border: #51c6a9 1px solid;
+}
+
+.webUrlStyleFilm:hover {
+  background-color: #8051c6;
+  border: #8051c6 1px solid;
+}
+
+.webUrlStyleEducation:hover {
+  background-color: #8aa973;
+  border: #8aa973 1px solid;
+}
+
+.webUrlStyleSport:hover {
+  background-color: #0077B6;
+  border: #0077B6 1px solid;
+}
+
+.webUrlStyleLife:hover {
+  background-color: #d28660;
+  border: #d28660 1px solid;
+}
+
+.webUrlStyleWorldnews:hover {
+  background-color: #e67a7a;
+  border: #e67a7a 1px solid;
+}
+
+.webUrlStyleMedia:hover {
+  background-color: #787dc7;
+  border: #787dc7 1px solid;
+}
+
+.webUrlStyleGames:hover {
+  background-color: #a85ee8;
+  border: #a85ee8 1px solid;
+}
+
+.webUrlStyleBusiness:hover {
+  background-color: #6fbcc3;
+  border: #6fbcc3 1px solid;
+}
+
+.webUrlStyleAustralia:hover {
+  background-color: #c9e67a;
+  border: #c9e67a 1px solid;
+}
+
+.webUrlStyleFootball:hover {
+  background-color: #b9bb7a;
+  border: #b9bb7a 1px solid;
+}
+
+.webUrlStyleUsnews:hover {
+  background-color: #786d93;
+  border: #786d93 1px solid;
+}
+
+.webUrlStyleTravel:hover {
+  background-color: #6d553c;
+  border: #6d553c 1px solid;
+}
+
+.webUrlStyleEnvironment:hover {
+  background-color: #0d7029;
+  border: #0d7029 1px solid;
+}
+
+.webUrlStyleBooks:hover {
+  background-color: #683856;
+  border: #683856 1px solid;
+}
+
+.webUrlStyleTelevision:hover {
+  background-color: #6b7c00;
+  border: #6b7c00 1px solid;
+}
+
+.webUrlStyleNews:hover {
+  background-color: #5a64a6;
+  border: #5a64a6 1px solid;
+}
+
+.webUrlStyleMusic:hover {
+  background-color: #6f7f84;
+  border: #6f7f84 1px solid;
+}
+
+.webUrlStyleCulture:hover {
+  background-color: #6d9383;
+  border: #6d9383 1px solid;
+}
+
+.webUrlStyleSociety:hover {
+  background-color: #8e6d93;
+  border: #8e6d93 1px solid;
+}
+
+.webUrlStyleArt:hover {
+  background-color: #dfa286;
+  border: #dfa286 1px solid;
+}
+
+.webUrlStyleMoney:hover {
+  background-color: #92936f;
+  border: #92936f 1px solid;
+}
+
+.webUrlStyleStage:hover {
+  background-color: #995793;
+  border: #995793 1px solid;
+}
