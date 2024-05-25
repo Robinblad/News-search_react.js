@@ -1,8 +1,9 @@
-# React + Vite
+# TheGuardian news app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Write full React app that will be public news from open source - TheGuardian.
 
-Currently, two official plugins are available:
+2. The app must have a field for typing some topic, for example "Sport". By pushing the button a request send to API, as a response comes up data with topics and articles. Needs to be correctly parse these data on the page. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Add CSS styles to the app.
+
+4. Add pagination for app using URL from topic.
